@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "Starlapse sky dataset: sky brightness and meteors measured from iPhone stacks"
+abstract: >-
+  Night-sky readings contributed by people photographing the sky with Starlapse, an iPhone
+  long-exposure camera, who opted in. Each reading gives sky surface brightness in
+  V mag/arcsec², Bortle class and naked-eye limiting magnitude, measured from the catalogue
+  stars (Yale Bright Star Catalogue) in the stack itself, together with the per-star
+  photometry it was computed from, so it can be recomputed with a better calibration.
+  Detector sessions add meteors placed on the sky with their associated shower.
+  Locations rounded to 0.1°. Photos are published alongside on Hugging Face.
+type: dataset
+authors:
+  - family-names: "Salavatov"
+    given-names: "Rustam"
+    alias: "fortunto2"
+  - name: "Starlapse contributors"
+keywords:
+  - light pollution
+  - sky quality meter
+  - night sky brightness
+  - meteors
+  - citizen science
+  - smartphone photometry
+license: CC-BY-4.0
+repository-code: "https://github.com/fortunto2/starlapse"
+url: "https://starlapse.app"
